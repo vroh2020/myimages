@@ -5,8 +5,8 @@ services:
     deploy:
       replicas: 2
 
-  laxtesting:
-    image: redis:latest
-    deploy:
-      replicas: 2
+#  laxtesting:
+#    image: redis:latest
+#    deploy:
+#      replicas: 2
 
