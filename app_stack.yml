@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  testrohini:
+    image: vroh2020/testimage:cicd
+    deploy:
+      replicas: 2
+
+  laxtesting:
+    image: vroh2020/testimage:cicd
+    deploy:
+      replicas: 2
+
