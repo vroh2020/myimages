@@ -6,7 +6,7 @@ services:
       replicas: 2
 
   laxtesting:
-    image: vroh2020/testimage:cicd
+    image: redis:latest
     deploy:
       replicas: 2
 
